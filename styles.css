@@ -177,7 +177,7 @@ text-align: left;
 
   .pricing-list > li {
  flex-shrink: 0;
- border: 1px solid #e28c8c;;
+ border: 2px solid #860122;;
  padding: 30px;
  border-radius: 30px;
   }
@@ -185,7 +185,7 @@ text-align: left;
 
 .quote-section  {
     padding: 0 16px;
-    border: 0.01px solid #e28c8c;
+    border: 1px solid #860122;
     border-radius: 10px;
     background-color: #fcf8f823;
 padding: 20px 0;

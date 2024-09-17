@@ -1,0 +1,159 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+a {
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 16px;
+    max-width: 1158px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  border: 0.1px solid #ceb5b5;
+  border-radius: 40px;
+  padding: 0 30px;
+  filter: drop-shadow(0 0 8px #aaa6a5);
+  flex-wrap: wrap;
+  max-width: 1158px;
+
+}
+
+.header-list {
+  display: flex;
+  gap: 40px;
+  text-align: center;
+  font-size: 28px;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+
+.header-list-item {
+
+}
+
+.header-list-link {
+    color: #410002;
+}
+
+.header-list-link:hover {
+    background-color: #dd99aa;
+    color: #850122;
+
+}
+
+.text-container-section2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: center;
+    min-width: 360px;
+    margin-bottom: 100px;
+}
+
+.hero {
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+   margin: 30px auto;
+   padding: 0 16px;
+   gap: 40px;
+}
+
+img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    position: relative;
+    flex-shrink: 0;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.hero-p {
+font-size: 25px;
+text-align: left;
+}
+
+.hero-button {
+
+}
+
+
+.hero-button {
+    align-items: center;
+    background-color: #860122;
+    border: 2px solid #111;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #fcfafa;
+    cursor: pointer;
+    display: flex;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .hero-button:after {
+    background-color: #d4acacaf;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(-8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+  }
+  
+  .hero-button:hover:after {
+    transform: translate(0, 0);
+  }
+  
+  .hero-button:active {
+    background-color: #860122;
+    outline: 0;
+  }
+        
+  .hero-button:hover {
+    outline: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .hero-button {
+      padding: 0 40px;
+    }
+  }
+
+
+
+

@@ -4,10 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing-page</title>
+    <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
 
     <header>
+        <div class="container header-container">
       <h1>
         <svg
           aria-label="TutaLogoWithText"
@@ -27,23 +29,27 @@
         </svg>
       </h1>
       <nav>
-        <ul>
-          <li>Prise</li>
-          <li>Blog</li>
-          <li>Support</li>
+        <ul class="header-list">
+          <li class="header-list-item"><a  class="header-list-link" href="https://tuta.com/pricing">Prise</a></li>
+          <li class="header-list-item"><a class="header-list-link" href="https://tuta.com/blog">Blog</a></li>
+          <li class="header-list-item"><a class="header-list-link" href="https://tuta.com/support">Support</a></li>
         </ul>
       </nav>
+      </div>
     </header>
 
+
     <main>
-      <section>
+      <section class="container hero">
+        <div class="text-container-section2">
         <h1>Secure email to protect your business data</h1>
-        <p>
+        <p class="hero-p">
           Quantum-safe encryption guards your emails, calendars, and contacts.
           Build customer trust and look professional to grow your business
           faster.
         </p>
-        <button>Protect your business now!</button>
+        <button class="hero-button">Protect your business now!</button>
+    </div>
         <img src="https://tuta.com/assets/hero-right-illust.Dw2O1fAp_Z20QjFC.webp" alt="Illustration of a businesswoman holding an email symbol in her right hand and doing a fist bump, surrounded by colleagues working on laptops and iPads.">
       </section>
 

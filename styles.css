@@ -39,9 +39,6 @@ a {
   margin: 5px;
 }
 
-.header-list-item {
-
-}
 
 .header-list-link {
     color: #410002;
@@ -92,9 +89,6 @@ font-size: 25px;
 text-align: left;
 }
 
-.hero-button {
-
-}
 
 
 .hero-button {
@@ -183,7 +177,7 @@ text-align: left;
 
   .pricing-list > li {
  flex-shrink: 0;
- border: 1px solid;
+ border: 1px solid #e28c8c;;
  padding: 30px;
  border-radius: 30px;
   }
@@ -191,10 +185,10 @@ text-align: left;
 
 .quote-section  {
     padding: 0 16px;
-    border: #111;
-    border-radius: 1px solid #0000;
-    background-color: #fe707b;
-    padding: 40px;
+    border: 0.01px solid #e28c8c;
+    border-radius: 10px;
+    background-color: #fcf8f823;
+padding: 20px 0;
 }
 
 
@@ -206,6 +200,7 @@ text-align: left;
     font-optical-sizing: auto;
         font-style: normal;
         line-height: 1.5;
+        padding: 40px;
 }
 
 .quote-p-signature {
@@ -218,7 +213,78 @@ text-align: left;
 }
 
 
+
+  .action-section {
+    display: flex; 
+    justify-content: space-between;
+    padding: 40px 80px;
+    font-size: 25px;
+    background-color: #dd99aa46;
+ border-radius: 40px;
+ margin: 40px;
+  }
+
+
+  .action-button {
+    align-items: center;
+    background-color: #860122;
+    border: 2px solid #111;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #fcfafa;
+    cursor: pointer;
+    display: flex;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    flex-shrink: 0;
+  }
   
+  .action-button:after {
+    background-color: #d4acacaf;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+  }
+  
+  .action-button:hover:after {
+    transform: translate(0, 0);
+  }
+  
+  .action-button:active {
+    background-color: #860122;
+    outline: 0;
+  }
+        
+  .action-button:hover {
+    outline: 0;
+  }
+  
+  @media (min-width: 768px) {
+    .action-button{
+      padding: 0 40px;
+    }
+  }
+
+
 
 
 
